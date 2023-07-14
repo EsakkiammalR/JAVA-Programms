@@ -1,0 +1,7 @@
+class example {
+  public static void main( String args[] ) {
+    int a = 10;
+    String teropt =  (a % 2 == 0) ? a + " is an even number" : a + " is an odd number";
+    System.out.println(teropt);
+  }
+}
